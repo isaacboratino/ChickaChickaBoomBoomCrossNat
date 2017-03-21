@@ -1,0 +1,13 @@
+﻿################################################################################
+# Este arquivo .gitignore foi criado automaticamente pelo Microsoft(R) Visual Studio.
+################################################################################
+
+/CCBBXCN/.vs/CCBBXCN/v15
+/CCBBXCN/packages
+/CCBBXCN/CCBBXCN/CCBBXCN/bin/Debug
+/CCBBXCN/CCBBXCN/CCBBXCN/obj/Debug
+/CCBBXCN/CCBBXCN/CCBBXCN/bin/Debug
+/CCBBXCN/CCBBXCN/CCBBXCN.Android/bin/Debug
+/CCBBXCN/CCBBXCN/CCBBXCN.Android/obj/Debug
+/CCBBXCN/CCBBXCN/CCBBXCN.iOS/obj/iPhone/Debug
+/CCBBXCN/CCBBXCN/CCBBXCN.UWP/obj/x86/Debug

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:CCBBXCN"
+             x:Class="CCBBXCN.MainPage">
+
+
+    <RelativeLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+
+        <Image Source="imgceu.png" Aspect="Fill" x:Name="ceu"
+               RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=.80}"
+               RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width, Factor=1}"/>
+
+        <Image Source="imgchao.png" Aspect="Fill"
+               RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=.35}"
+               RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width, Factor=1}"               
+               RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, Property=Height, ElementName=ceu}"/>
+
+        <Image Source="coqueiro_cocos.png" Aspect="Fill"
+               RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=.80}"
+               RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width, Factor=.70}"
+               RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, Property=Height, ElementName=ceu, Factor=.20}"
+               RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=.18}"
+               />
+
+    </RelativeLayout>
+
+
+</ContentPage>
